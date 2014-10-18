@@ -1,0 +1,112 @@
+---
+layout: default
+title: Work
+---
+<style type="text/css">
+#icons a{
+	display: block;
+	height: 100px;
+	width: 100px;
+	float: left;
+	overflow: hidden;
+	text-indent: -100%;
+	background: url('logos/logos.png');
+	background-position-y: 100px;	
+	background-position-x: 0px;
+}
+#icons a:hover{
+	background-position-y: 0px;	
+}
+#icons #jambo-link{
+	width: 240px;
+}
+#icons #b4h-link {
+	width: 160px;
+	background-position-x: -260px;
+}
+#icons #jamboschool-link {
+	width: 200px;
+	background-position-x: -420px;
+}
+.work-column{
+	float: left;
+}
+.work-column .project{
+	margin: 8px;
+	position: relative;
+	overflow: hidden;
+}
+#work:hover .project img{
+/*    -webkit-filter: sepia(0.2) brightness(0.2);	*/
+}
+.work-column .project img{
+	margin-bottom: 8px;
+}
+#work:hover .work-column .project:hover img{
+/*    -webkit-filter: none; */
+}
+
+.work-column .project .descr{
+	position: absolute;
+	bottom: -100%;
+	left: 0px;
+	padding: 8px;
+	color: black;
+	font-size: 90%;
+	background-color: white;
+	border-top: 1px solid white;
+/*	display: none;*/
+}
+.work-column .project .descr p{
+	margin-bottom: 0px;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".project").hover(function(){
+		$(".descr",$(this)).stop(0,0).animate({bottom:0});
+	},function(){
+		$(".descr",$(this)).stop(0,0).animate({bottom:"-100%"});
+	})
+})
+</script>
+<!--
+<div id="icons">
+<a id="jambo-link" href="#jambo">Jambo International Center</a>
+<a id="b4h-link" href="#b4h">Bicycles for Humanity Tokyo</a>
+<a id="jamboschool-link" href="#jamboschool">Jambo School</a>
+</div>
+-->
+
+<div id="work">
+	<h2>Some samples of my work</h2>
+	<p>More coming soon.</p>
+	<div class="work-column">
+	<div class="project">
+		<img src="/webdesign/jambo.org.png" width="200">
+		<div class="descr">
+			<strong><a href="http://www.jambointernational.org" target="_blank">Jambo International Center</a></strong><br>
+			<p>Long-term project based on Wordpress, actively maintained. Bilingual (en/jp), logo design, mailchimp and twitter integration and support.</p> 
+		</div>
+	</div>
+	<div class="project">
+		<img src="/webdesign/b4h.png" width="200">
+		<div class="descr">
+			<strong>Bicycles for Humanity<br>Tokyo Chapter</strong><br>
+			<p>Now defunct.</p>
+			<p>Layout and logo design. Wordpress theme with donation box, blog, facebook and twitter integration.</p>
+		</div>
+	</div>
+	</div>
+	<div class="work-column">
+		<div class="project">
+			<img src="/webdesign/jambo-www-main.jpg">
+			<div class="descr">
+				<strong><a href="http://www.jamboschool.jp" target="_blank">JAMBO English School</a></strong><br>
+				<p>Design by <a href="http://behance.net/jkuik" target="_blank">Jakub Kuik</a> of Przebitka Studio.</p>
+				<p>Sinatra-based site with a contact box. Actively maintained, planning a blog-like module with idioms of the week.</p>
+				<p>Maintenance includes hosting and newsletter support</p>
+			</div>
+		</div>
+	</div>
+</div>

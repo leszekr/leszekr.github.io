@@ -1,0 +1,219 @@
+---
+title: Mangled Plain
+layout: default
+---
+
+<h1>Mt Fuji in 3D</h1>
+
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"> </script>
+  <script type="application/x-javascript" src="/js/mangled.js"> </script>
+
+<div id="map">
+  <canvas id="canvas" width="800" height="600">
+  You browser does not support HTML 5
+  </canvas>
+</div>
+
+<div id="contact">
+This is a visualization of NASA's SRTM data with Javascript and HTML5. 
+Projection and lighting are done client-side, the server only provides raw elevation values in mesh points.<br>
+The mesh is 360x360. 
+</div>
+
+  <script type="text/javascript">
+
+var statuspanel = false;
+
+var examples = {
+  "Fuji-san" : {north:139.08002275085448, east:35.56933750586913, south:138.39337724304198, west:35.00886931855766},
+//  "Japan" : {north: 149.99699967956542,east: 46.86086226560373,south: 127.93645280456542,west: 29.68890556591633},
+  "Kanto": {north:141.10356706237792, east:36.726463639943645, south:138.35698503112792, west:34.49378449502455},
+  "Kyoto":{north:136.10753434753417, east:35.243056136460595, south:135.42088883972167, west:34.68033034836258},
+  "Hokkaido":{north:145.36076921081542, east:45.483931777901915, south:139.86760514831542, west:41.50108481807777},
+  "RebunRinshin":{north:141.46611589050292, east:45.528204412550274, south:140.77947038269042, west:45.045112314466614},
+  "Sado":{north:138.73052018737792, east:38.342426145503026, south:138.04387467956542, west:37.8018793544024},
+  "Oshima":{north:133.13659089660644, east:34.3600485082369, south:132.79326814270019, west:34.07615446799855},
+  "Izu":{north:139.2400111541748, east:35.124081278865035, south:138.5533656463623, west:34.560536865440625},
+  "Miura":{north:139.74984544372558, east:35.27704697996456, south:139.57818406677245, west:35.13678677807801},
+  "Yakushima":{north:130.68578141784667, east:30.487396800046618, south:130.34245866394042, west:30.191092732055544},
+  "Sendai-shi":{north:141.7064418182373, east:38.92278759595826, south:140.3331508026123, west:37.84635444616146},
+  "Shizuoka-shi":{north:138.56297868347167, east:35.124081278865035, south:138.21965592956542, west:34.84279138582285},
+  "Nikko-shi":{north:139.84563249206542, east:36.860630615338216, south:139.50230973815917, west:36.58544587509175},
+  "Ibaraki":{north:140.36439317321776, east:36.38207346318227, south:140.0210704193115, west:36.105180660974675},
+  "Nagoya":{north:137.5481166229248, east:35.57213008627723, south:136.1748256072998, west:34.447365756686665},
+  "Chichibu":{north:139.22490495300292, east:36.127021536587556, south:138.88158219909667, west:35.84922633079003},
+  "Tanzawa":{north:139.29356950378417, east:35.60898302359442, south:138.95024674987792, west:35.32937199034732},
+  "Hakone":{north:139.18593782043456, east:35.40097501303157, south:138.8426150665283, west:35.12064132761626}
+  //"Wako-shi":{north:139.6578349456787, east:35.83739837815668, south:139.57200425720214, west:35.767786492689304}
+
+}
+
+function checkHash(){
+  if(window.location.hash){
+    return window.location.hash.replace("#","");
+  }
+  return false;
+}
+
+function setStatus(msg){
+  if(statuspanel){
+    statuspanel.html(msg);
+  }
+}
+
+function selectLocation(loc){
+  plot.setBounds(examples[loc]);
+  plot.busy = true;
+  plot.needsRedraw = true;
+  plot.updateElevation(function(){plot.busy=false});
+  $(".selectedLocation").removeClass("selectedLocation");
+  $("a[rel="+loc+"]").addClass("selectedLocation");
+}
+
+$(document).ready(function(){
+  var list = $("#locations");
+  
+  for(var key in examples){
+    list.append('<li><a href="#'+key+'" rel="'+key+'">'+key.replace("-"," ")+'</a></li>');
+  }
+  
+  statuspanel = $("#status")
+  
+  plot.init();  
+  var hash = checkHash();
+  if(hash&&examples.hasOwnProperty(hash))
+  {     
+    selectLocation(hash);
+  }
+  else selectLocation("Fuji-san");//plot.setBounds(examples["Fuji-san"]);
+  init_map();
+
+  /*google.maps.event.addListener(map, 'bounds_changed', function() {
+    clearTimeout(timer);
+    if(can_move) //syncPlot();
+      timer = setTimeout("syncPlot()",100);
+    log(map.getCenter().lat()+","+map.getCenter().lng()+" zoom="+map.getZoom()+" contrast=",plot.zContrast);
+  });*/
+  $("#album").show().animate({right:-500});
+
+  $("#showalbum").click(function(){
+    $("#album").animate({right:20});
+    return false;
+  });
+  $("#notnow").click(function(){
+    $("#album").animate({right:-500});
+    return false;
+  });
+  $("#syncButton").click(function(){
+    syncPlot();
+    $("#popup").animate({left:-550});
+    $(".selectedLocation").removeClass("selectedLocation");
+    return false;   
+  });
+  $("#openPopupButton").click(function(){
+    $("#popup").animate({left:150});
+    return false;
+  });
+  $("input[name=wireframe]").click(function(){
+    plot.options.wireframe = $(this).checked();
+    plot.needsRedraw = true;
+  });
+  
+
+  $("#locations").find("a").each(function(){
+    $(this).click(function(){
+      var loc = $(this).attr("href").replace("#","");
+      selectLocation(loc);
+      //plot.updateElevation();
+    });
+  });
+  //$(".panel").draggable();
+});
+    
+  </script>
+  <style type="text/css">
+    #map{
+      width: 100%;
+      text-align: center;
+    }
+    canvas{
+      margin: auto;
+    }
+    #gmap{
+      width: 500px;
+      height: 500px;
+      margin-right: 10px;
+    }
+    #popup{
+      width: 500px;
+      left: -550px;
+      top: 0px;
+      text-align: right;
+    }
+    #album{
+      width: 300px;
+      right: 20px;
+      display: none;
+      top: 20px;  
+    }
+    .panel{
+      position: absolute;
+      text-align: left;
+      border: 1px solid #444;
+      color: #ccc;
+      background-color: rgba(0,0,0,0.9);
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      margin: 10px;
+      padding: 5px;
+    }
+    #options{
+      left: 0;
+      top: 0;
+    }
+    a.button{
+      display: inline-block;
+      padding: 5px;
+      color: white;
+      background: #A40;
+      text-decoration: none;
+      border: 1px solid white;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+    }
+    #locations{
+      list-style: none none;
+      padding: 0;
+    }
+    .panel a{
+      text-decoration: none;
+      color: #eee;
+    }
+    #locations a {
+      display: block;
+      padding: 2px;
+      
+    }
+    #locations a.selectedLocation {
+      background: #a40;
+    }
+    #contact{
+      color: #666;
+      position: absolute;
+      width: 240px;
+      bottom: 20px;
+      right: 20px;
+      margin-right: 20px;
+    }
+    #status{
+      color: #AAA;
+      font-size: 30px;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      margin-left: 20px;
+      z-index: 1000;
+    }
+  </style>

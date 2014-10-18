@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{{page.title}} :Leszek</title>
+	<link rel="stylesheet" href="/style/bootstrap.min.css">
+	<link rel="stylesheet" href="/style/leszek.css">
+	<meta name="author" value="Leszek Rybicki, http://leszek.rybicki.cc">
+	<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Blog feed" />
+	<script type="text/javascript" src="/scripts/jquery.js"></script>
+
+</head>
+<body class="">
+	<div class="container">
+		<div class="navbar navbar-top">
+			<div class="brand navbar-brand my-name">
+				<h1><ruby>Leszek<rt>レシェック</rt></ruby>&nbsp;<ruby>Rybicki<rt>リビツキ</rt></ruby></h1>
+				<h4>Independent Web Developer</h4>
+			</div>
+			<ul id="menu" class="nav navbar-nav pull-right">
+				<li>
+						<a title="Who am I?" href="/">About me</a></li>
+		<!--			<li>
+						<a title="My projects" href="/work/">Work</a></li>-->
+					<li>
+						<a title="I write this" href="{{ site.posts.first.url }}">Blog</a></li>
+					<li>
+						<a title="What I did" href="/toys/">Toys</a>
+					</li>
+			</ul>	
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				{{ content }}
+			</div>
+		</div>
+		<hr>
+		<div class="footer">
+			<div class="col-lg-4">
+					<i class="icon-github"></i>&nbsp;github: <a target="_blank" href="https://github.com/nadsumatal">nadsumatal</a><br>
+					<i class="icon-twitter"></i>&nbsp;twitter: <a target="_blank" href="http://twitter.com/user/nadsumatal">nadsumatal</a><br>
+			</div>
+			<div class="col-lg-4">
+				<p style="text-align: center">
+					Copyright &copy; 2012 by <a href="mailto:leszek@rybicki.cc">Leszek Rybicki</a>.
+				</p>
+			</div>
+			<div class="col-lg-4">
+				<p style="text-align: right">
+					<a href="/bitcoin/"><img src="/img/BC_RnBG_64px.png"></a>
+				</p>
+			</div>
+		</div>
+	</div> <!-- /container -->
+	<script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/scripts/raphael-min.js"></script>
+	<script type="text/javascript" src="/scripts/origami.js"></script>
+
+
+	<script type="text/javascript">
+jQuery.fn.reverse = [].reverse;
+
+$(document).ready(function(){
+	var active = $();
+	$("#menu li a").reverse().each(function(){
+		if($(this).attr("href").match(window.location.pathname)) active = $(this);
+	})
+	active.parent().addClass("active");
+});
+	</script>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'leszek'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2132560-3']);
+  _gaq.push(['_setDomainName', 'rybicki.cc']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+   </body>
+</html>

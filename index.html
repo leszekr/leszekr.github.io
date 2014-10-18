@@ -1,0 +1,84 @@
+---
+layout: default
+title: Hello
+---
+<div class="col-lg-5">
+	<p><span class="double">Hello.&nbsp;</span>I'm a freelance web developer based in Tokyo, JAPAN, originally from Torun, POLAND.</p>
+	<p class="clearfix" style="clear: both">I write code by hand - HTML, CSS, JavaScript and server-side.</p>
+	
+	<p>My platform of choice is <a href="http://sinatrarb.com" target="_blank" title="Sinatra">Sinatra</a>.</p>
+	<p>I enjoy outdoor activities like <a href="http://jambointernational.org">hiking in the Japanese mountains.</a> </p>
+</div>
+<div class="col-lg-2">
+	<img src="img/photo.png" width="200">
+</div>
+<div class="col-lg-5">
+	<div id="paperplane"></div>
+</div>
+
+
+<script type="text/javascript">
+
+
+function init(){
+	var mouse = {x:0, y:0, over: false, stamp: 0, click: false}
+	$("body").hover(function(){},function(){
+		mouse.over = false;
+		mouse.stamp = new Date().getTime();
+	}).mousemove(function(e){
+		mouse.x = e.clientX;
+		mouse.y = e.clientY;
+		mouse.over = true;
+	});
+	$("a").click(function(){
+		if($(this).attr("target"));
+			else mouse.click = true;
+	})
+	var animating = false;
+	origami = new Origami("paperplane", 300, 300);
+
+	function paperplane(){
+		var scale=1;
+		var midspan = 20*scale;
+		var depth = 20*scale;
+		var length= 70*scale;
+		var wingspan = 100*scale;
+		origami.face({x: -wingspan, y:-length, z:depth},{x: -midspan, y:-length, z:depth},{x:0, y:length, z:depth},200); 
+		origami.face({x: wingspan, y:-length, z:depth},{x:0, y:length, z:depth},{x:midspan, y:-length, z:depth},200);
+		origami.face({x: -midspan, y:-length, z:depth},{x:0, y:length, z:depth},{x:0, y:-length, z:-depth},200); 
+		origami.face({x: midspan, y:-length, z:depth},{x:0, y:-length, z:-depth},{x:0, y:length, z:depth},200); 
+	}
+
+	function animate(){
+		if(!animating){
+			var stamp = new Date().getTime();
+			animating = true;
+			var rX = origami.camera.rX;
+			var rY = origami.camera.rY;
+			var aX = 3.5-3.14*mouse.y/340.0;
+			var aY = 3.14+3.14*mouse.x/400.0-6.28;
+			var tX = sX = 2.1, tY = sY = 0.7 ;
+			var changed = false;
+
+			if(mouse.over) { tX = aX; tY = aY; 
+			}
+			if(mouse.click) { tY = rY+4; }
+			if(Math.abs(rX-tX)>0.01 || Math.abs(rY-tY)>0.01) {
+				rX=0.9*rX+0.1*tX;
+				rY=0.9*rY+0.1*tY;
+				changed = true;
+				origami.camera.setAngles(rX,rY);
+				origami.render(origami.camera);
+			}
+			animating = false;
+		}
+	}	
+	origami.camera.setAngles(1.0,-2.5);
+	origami.camera.cull = false;//true;
+	paperplane();
+	setInterval(animate,40);
+}
+
+window.onload = init;
+
+</script>
