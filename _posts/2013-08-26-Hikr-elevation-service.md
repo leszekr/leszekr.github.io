@@ -8,7 +8,7 @@ As part of the long-upcoming [hikr.jp](http://hikr.jp) service, I decided to pub
 
 **[Go check it out](http://elevation.hikr.jp)**
 
-The source (minus the elevation data) is available [on my github page](https://github.com/nadsumatal/elevation.hikr.jp).
+The source (minus the elevation data) is available [on my github page](https://github.com/leszekr/elevation.hikr.jp).
 
 ### How does it work?
 
@@ -23,7 +23,7 @@ The same `hgt` files were used to make [this demo](http://leszek.rybicki.cc/toys
 In short, to display elevation of hand-drawn paths. 
 
 A hand-drawn path, made in [geojson.io](http://geojson.io) by [MapBox](http://mapbox.com), looks like this:
-<script src="https://gist.github.com/nadsumatal/6270746.js"></script>
+<script src="https://gist.github.com/leszekr/6270746.js"></script>
 
 This is a trail I went on last Sunday, drawn some time before the hike. 
 

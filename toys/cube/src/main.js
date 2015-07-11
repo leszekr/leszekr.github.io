@@ -122,7 +122,7 @@ define(function(require, exports, module) {
     });
 
     var linkSurface = new Surface({
-        content: '<a href="http://nadsumatal.github.com">@nadsumatal</a>',
+        content: '<a href="http://leszekr.github.com">@leszekr</a>',
         size: [100, 30],
         properties: {
             color: 'white',

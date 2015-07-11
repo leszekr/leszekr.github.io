@@ -1,7 +1,7 @@
 /* 
   Origami.js
   Raphael-based 3D library
-	http://nadsumatal.github.com
+	http://leszekr.github.com
 
   License: MIT
 
