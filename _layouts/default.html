@@ -1,25 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>{{page.title}} :Leszek</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/style/leszek.css">
 	<meta name="author" value="Leszek Rybicki, http://leszek.rybicki.cc">
 
 </head>
-<body class="">
-  <nav class="navbar navbar-default">
+<body>
+  <div class="navbar">
     <div class="container">
-			<div class="nav navbar-brand my-name">
-				<h1><ruby>Leszek<rt>レシェック</rt></ruby>&nbsp;<ruby>Rybicki<rt>リビツキ</rt></ruby></h1>
-			</div>
-			<ul class="nav navbar-nav pull-right">
-				<li><a title="Who am I?" href="/">About me</a></li>
-				<li> <a title="I write this" href="{{ site.posts.first.url }}">Blog</a></li>
-			</ul>
+				<div class="nav navbar-brand my-name">
+					<h1><ruby>Leszek<rt>レシェック</rt></ruby>&nbsp;<ruby>Rybicki<rt>リビツキ</rt></ruby></h1>
+				</div>
+				<ul class="nav navbar-nav navbar-right pull-right">
+					<li><a title="Who am I?" href="/">About me</a></li>
+					<li> <a title="I write this" href="{{ site.posts.first.url }}">Blog</a></li>
+				</ul>
     </div>
-  </nav>
+  </div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -46,17 +46,6 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	<script type="text/javascript">
-jQuery.fn.reverse = [].reverse;
-
-$(document).ready(function(){
-	var active = $();
-	$("#menu li a").reverse().each(function(){
-		if($(this).attr("href").match(window.location.pathname)) active = $(this);
-	})
-	active.parent().addClass("active");
-});
-	</script>
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
