@@ -57,15 +57,6 @@ p {
   line-height: 1.5;
 }
 
-ul {
-  list-style: square;
-  color: #d41;
-  li {
-    color: #888;
-    line-height: 1.8em;
-  }
-}
-
 .pagination{
   color: #ccc;
   font-size: 90%;
@@ -77,6 +68,7 @@ span.double{
   line-height: 1.5em;
 }
 .post {
+  text-align: justify;
   font-family: serif;
   font-size: 120%;
   p{
