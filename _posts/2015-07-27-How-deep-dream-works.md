@@ -4,8 +4,6 @@ layout: post
 published: true
 ---
 
-# How Deep Dream works
-
 ## Do neural networks hallucinate of electronic dogs?
 
 ##### This is a post for [Abeja Blog](http://engineer.abeja.asia).
