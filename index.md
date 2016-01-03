@@ -19,6 +19,8 @@ on the back-end and:
  - [D3](http://d3js.org/)
  - [Bootstrap](http://getbootstrap.com/)
 
-on the front-end side.
+on the front-end side. I have occasionally worked on smartphone apps using [PhoneGap](http://phonegap.com/). Studying Android development.
 
-I enjoy outdoor activities like <a href="http://jambointernational.org">hiking in the Japanese mountains.</a>
+Currently, I'm enjoying work at [Abeja](http://abeja.asia) where a face-recognizing deep-learning neural network produces tons of data, which needs cool visualization. What more can you ask for?
+
+I enjoy outdoor activities like [hiking in the Japanese mountains](http://jambointernational.org).
