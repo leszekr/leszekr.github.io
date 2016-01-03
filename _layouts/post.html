@@ -3,39 +3,39 @@ layout: default
 ---
 
 <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
+    <div class="col-md-8 col-md-offset-2">
 
-<div class="post">
-   <!-- here add you post markup -->
-    <span class="date">{{page.date| date: "%d %B %Y" }}</span>
-   <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-  <div class="content">
-    {{ page.content || markdownify }}
-  </div>
-  <div class="post-footer">
-  	tags: {% for tag in page.tags %}<strong>{{ tag }}</strong>{% endfor %}
-  </div>
-</div>
-
-<hr>
-
-<div class="page-navigation">
-        <div class="clear">&nbsp;</div>
-        <div class="left">
-        {% if page.previous.url %}
-                <a href="{{page.previous.url}}" title="Previous Post:
-{{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-        {% endif %}
+      <div class="post">
+         <!-- here add you post markup -->
+          <span class="date">{{page.date| date: "%d %B %Y" }}</span>
+         <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <div class="content">
+          {{ page.content || markdownify }}
         </div>
-
-        <div class="right">
-        {% if page.next.url %}
-                <a href="{{page.next.url}}" title="next Post:
-{{page.next.title}}">{{page.next.title}} &raquo; </a>
-        {% endif %}
+        <div class="post-footer">
+        	tags: {% for tag in page.tags %}<strong>{{ tag }}</strong>{% endfor %}
         </div>
-        <div class="clear">&nbsp;</div>
-</div>
+      </div>
 
-</div>
+      <hr>
+
+      <div class="page-navigation">
+              <div class="clear">&nbsp;</div>
+              <div class="left">
+              {% if page.previous.url %}
+                      <a href="{{page.previous.url}}" title="Previous Post:
+      {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+              {% endif %}
+              </div>
+
+              <div class="right">
+              {% if page.next.url %}
+                      <a href="{{page.next.url}}" title="next Post:
+      {{page.next.title}}">{{page.next.title}} &raquo; </a>
+              {% endif %}
+              </div>
+              <div class="clear">&nbsp;</div>
+      </div>
+
+  </div>
 </div>
