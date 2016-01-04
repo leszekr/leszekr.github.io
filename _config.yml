@@ -8,4 +8,6 @@ future:      true
 lsi:         false
 markdown:    redcarpet
 permalink:   /:year-:month-:day/:title.html
-
+collections:
+  guides:
+    output: false
