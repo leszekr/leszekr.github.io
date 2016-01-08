@@ -10,6 +10,17 @@ body {
   color: #888;
 }
 
+.home {
+  font-size: 120%;
+}
+
+.home-photo {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 h1, h2, h3, h4, h5, h6, .double {
   font-family: "Titillium Web", "Hiragino Sans GB", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴ ProN", "helvetica", "Arial", sans;
   font-weight: 200;
