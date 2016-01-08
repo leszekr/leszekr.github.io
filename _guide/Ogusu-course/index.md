@@ -16,8 +16,6 @@ summary:
 
 From Shinbashi, take the JR Tokaido Line train (going towards Odawara). Change at Totsuka and get on the JR Yokosuka Line train going towards Zushi.  At Zushi, change to the JR Yokosuka Line train (going towards Kurihama) arriving at Kinugasa Station.
 
-{% flickr http://www.flickr.com/photos/jambodave/6855658110/ %}
-
 ## Links
 
  - [k-hiking.jp](http://www.k-hiking.jp/yokosuka-miura/kinugasajo-ogusu_02.htm)
