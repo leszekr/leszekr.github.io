@@ -19,7 +19,7 @@ on the back-end and:
  - [D3](http://d3js.org/)
  - [Bootstrap](http://getbootstrap.com/)
 
-on the front-end side. I have occasionally worked on smartphone apps using [PhoneGap](http://phonegap.com/). Studying Android development.
+on the front-end side. I have occasionally worked on smartphone apps using [PhoneGap](http://phonegap.com/). I made the [Japan Today App](https://itunes.apple.com/us/app/japan-today/id681497824?mt=8) with some good people. Currently studying Android development.
 
 Currently, I'm enjoying work at [Abeja](http://abeja.asia) where a face-recognizing deep-learning neural network produces tons of data, which needs cool visualization. What more can you ask for?
 
