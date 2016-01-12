@@ -8,6 +8,7 @@ features:
  - /mt/takao.html
  - /mt/kagenobu.html
 author: hikr.jp
+geojson: '/data/takao.json'
 area: Hachioji
 prefecture: Tokyo
 license: CC-BY-NC

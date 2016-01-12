@@ -7,6 +7,7 @@ public: true
 author: Leszek
 header_image: http://www.flickr.com/photos/jambodave/8547970375
 license: CC-BY-NC
+geojson: '/data/mitake-hinode.json'
 featured: also
 info:
   level: intermediate

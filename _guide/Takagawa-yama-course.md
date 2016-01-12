@@ -5,6 +5,7 @@ map: true
 author: Leszek
 license: CC-BY-NC
 area:
+geojson: 'data/takatsu.json'
 prefecture: Yamanashi
 public: false
 features:

@@ -1,2 +1,4 @@
 ---
+layout: course
+title: Santaki
 ---

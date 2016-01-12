@@ -8,6 +8,7 @@ map: true
 area: Miura
 public: true
 prefecture: Kanagawa
+geojson: '/data/takatori.json'
 tags: [ temple, shrine, seaside, park, statue, 360 view ]
 summary: |
   A two-part course involving a park, various shrines and temples and a 360 degree view.

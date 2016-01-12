@@ -6,6 +6,7 @@ map: true
 author: Leszek
 area: Okutama
 public: true
+geojson: '/data/nokogiri.json'
 prefecture: Tokyo
 header_image: http://www.flickr.com/photos/jambodave/8359426703/
 license: CC-BY-NC

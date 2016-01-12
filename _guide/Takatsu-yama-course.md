@@ -6,6 +6,7 @@ map: true
 prefecture: Yamanashi
 public: true
 area: Otsuki
+geojson: '/data/takatsu.json'
 author: JAMBO International
 header_image: http://www.flickr.com/photos/jambodave/9593450445/
 header_class: vertical
@@ -33,7 +34,7 @@ Shiotsu Station (四方津駅) on the Chuo Line.
 
 This is a pleasant, well-marked course.
 
-Go out the (only) exit of Shiotsu Station and turn left.  Go down a short ramp, and turn left, walking through a tunnel which goes under the train tracks.  After passing through the tunnel, turn left on the small street.  After walking for a minute or two, there will be a sign for Mt. Takatsuka (高柄山）pointing you to the right.  Turn right and you will reach the Katsuragawa River after a few minutes.  
+Go out the (only) exit of Shiotsu Station and turn left.  Go down a short ramp, and turn left, walking through a tunnel which goes under the train tracks.  After passing through the tunnel, turn left on the small street.  After walking for a minute or two, there will be a sign for Mt. Takatsuka (高柄山）pointing you to the right.  Turn right and you will reach the Katsuragawa River after a few minutes.
 
 ![Signs](DSC01766.JPG)
 
@@ -41,15 +42,15 @@ Right before the bridge (going over the river), there’s a small shed on your r
 
 ![Katsuragawa river](DSC01760.JPG)
 
-Continuing on with the course, cross over the bridge and walk on the road for about 20-30 minutes.  There will be signs for Mt. Takatsuka (高柄山）and Oochitoge (大地峠) which lead you onto a hiking course.  This course takes you through beautiful cedar forests and is well-marked.  After an hour or so, the hiking course follows a road for some time, and then crosses the road at a couple of points.  There are signs every time you hit the road pointing which way to go to get back onto the hiking path.  
+Continuing on with the course, cross over the bridge and walk on the road for about 20-30 minutes.  There will be signs for Mt. Takatsuka (高柄山）and Oochitoge (大地峠) which lead you onto a hiking course.  This course takes you through beautiful cedar forests and is well-marked.  After an hour or so, the hiking course follows a road for some time, and then crosses the road at a couple of points.  There are signs every time you hit the road pointing which way to go to get back onto the hiking path.
 
 ![Road](DSC01802.JPG)
 
-After passing this road area, continue on for about 40 minutes, continuing ups and downs (mostly ascending), until you reach another sign which points to Mt. Takatsuka (高柄山）(going straight), or Shiotsu Station (四方津駅）to the left.  Here you have the option to walk up to Mt. Takatsuka (20 minutes up and 15 minutes back), where you have nice views of the surrounding area (and Mt. Fuji if you’re lucky), or you can take the path going down to Shiotsu Station.  
+After passing this road area, continue on for about 40 minutes, continuing ups and downs (mostly ascending), until you reach another sign which points to Mt. Takatsuka (高柄山）(going straight), or Shiotsu Station (四方津駅）to the left.  Here you have the option to walk up to Mt. Takatsuka (20 minutes up and 15 minutes back), where you have nice views of the surrounding area (and Mt. Fuji if you’re lucky), or you can take the path going down to Shiotsu Station.
 
 ![Optional Takatsuka](DSC01827.JPG)
 
-The course from this point is quite steep for about 40 minutes, where it evens out and follows a small creek, ending into a road, which continues following the creek for about 40 minutes.  There are some scenic spots along the creek with the water flowing over the rocks, and a few small waterfalls.  
+The course from this point is quite steep for about 40 minutes, where it evens out and follows a small creek, ending into a road, which continues following the creek for about 40 minutes.  There are some scenic spots along the creek with the water flowing over the rocks, and a few small waterfalls.
 
 ![Creek falling over rocks](9593460633_7572e02b90_k.jpg)
 

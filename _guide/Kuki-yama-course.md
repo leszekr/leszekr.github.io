@@ -9,6 +9,7 @@ license: CC-BY-NC
 area: Otsuki
 map: true
 prefecture: Yamanashi
+geojson: '/data/kuki.json'
 public: true
 featured: header
 info:

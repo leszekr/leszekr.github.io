@@ -9,6 +9,7 @@ area: Hanno
 prefecture: Saitama
 featured: also
 public: true
+geojson: '/data/tenran.json'
 tags: [ river swim, statue, temple ]
 header_image: http://www.flickr.com/photos/jambodave/9651060026
 header_class: vertical

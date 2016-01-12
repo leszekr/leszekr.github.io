@@ -7,6 +7,7 @@ author: hikr.jp
 area: Kyonan
 prefecture: Chiba
 public: true
+geojson: '/data/nokogiri-cliff.json'
 map: true
 info:
   author: Leszek

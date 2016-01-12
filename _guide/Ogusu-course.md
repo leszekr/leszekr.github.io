@@ -5,6 +5,7 @@ title: Ogusu
 area: Yokohama
 prefecture: Kanagawa
 author: Leszek
+geojson: '/data/ogusu.json'
 header_image: http://www.flickr.com/photos/jambodave/6855658110/
 tags: [seaside, onsen, flowers, .draft]
 center: [139.62820529937744, 35.25045562186181]

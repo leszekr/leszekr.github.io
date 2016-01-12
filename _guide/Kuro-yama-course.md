@@ -7,6 +7,7 @@ license: CC-BY-NC
 area: Chichibu
 map: true
 prefecture: Saitama
+geojson: '/data/kura.json'
 header_image: http://www.flickr.com/photos/jambodave/11040041165/
 header_class: vertical
 info:

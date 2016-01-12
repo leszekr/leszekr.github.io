@@ -4,6 +4,7 @@ title: Otsuki cliff
 center: [138.94816875457764, 35.620639996677504]
 map: true
 public: true
+geojson: '/data/iwadono.json'
 author: hikr.jp
 license: CC-BY-NC
 tags: [ chains, cliff ]

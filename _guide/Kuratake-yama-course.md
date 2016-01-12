@@ -6,6 +6,7 @@ map: true
 author: hikr.jp
 license: CC-BY-NC
 area: Otsuki
+geojson: '/data/kiratake.json'
 prefecture: Yamanashi
 info:
   level: intermediate
