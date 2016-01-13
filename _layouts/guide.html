@@ -1,0 +1,9 @@
+---
+layout: page
+title: My hiking spots
+---
+<ul>
+{% for course in site.guide %}{% if course.public %}
+  <li><a href="{{course.url}}">{{ course.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>

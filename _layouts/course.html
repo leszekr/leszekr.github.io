@@ -1,0 +1,10 @@
+---
+layout: map
+---
+{{ content }}
+<script>
+  window.page = {
+    geojson: '{{page.geojson}}',
+    center: [ {{page.center[1]}}, {{page.center[0]}} ]
+  }
+</script>

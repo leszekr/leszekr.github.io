@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<trk><name></name>
+<number>1</number>
+<trkseg>
+<trkpt lat="36.111658" lon="139.110889"><ele>141</ele><time>2013-02-10T23:00:00Z</time></trkpt>
+<trkpt lat="36.112129" lon="139.107222"><ele>140</ele><time>2013-02-10T23:19:15Z</time></trkpt>
+<trkpt lat="36.114308" lon="139.106028"><ele>142</ele><time>2013-02-10T23:34:29Z</time></trkpt>
+<trkpt lat="36.116667" lon="139.106278"><ele>143</ele><time>2013-02-10T23:49:37Z</time></trkpt>
+<trkpt lat="36.116622" lon="139.104806"><ele>168</ele><time>2013-02-10T23:57:15Z</time></trkpt>
+<trkpt lat="36.116599" lon="139.103639"><ele>200</ele><time>2013-02-11T00:03:18Z</time></trkpt>
+<trkpt lat="36.116105" lon="139.102944"><ele>191</ele><time>2013-02-11T00:08:05Z</time></trkpt>
+<trkpt lat="36.113702" lon="139.102583"><ele>229</ele><time>2013-02-11T00:23:34Z</time></trkpt>
+<trkpt lat="36.112848" lon="139.101778"><ele>241</ele><time>2013-02-11T00:30:26Z</time></trkpt>
+<trkpt lat="36.111074" lon="139.101139"><ele>270</ele><time>2013-02-11T00:42:14Z</time></trkpt>
+<trkpt lat="36.110265" lon="139.099694"><ele>291</ele><time>2013-02-11T00:51:21Z</time></trkpt>
+<trkpt lat="36.109119" lon="139.099167"><ele>320</ele><time>2013-02-11T00:59:10Z</time></trkpt>
+<trkpt lat="36.108805" lon="139.099111"><ele>316</ele><time>2013-02-11T01:01:11Z</time></trkpt>
+<trkpt lat="36.108019" lon="139.099639"><ele>319</ele><time>2013-02-11T01:06:54Z</time></trkpt>
+<trkpt lat="36.106828" lon="139.099944"><ele>324</ele><time>2013-02-11T01:14:41Z</time></trkpt>
+<trkpt lat="36.108131" lon="139.099611"><ele>320</ele><time>2013-02-11T01:23:11Z</time></trkpt>
+<trkpt lat="36.108805" lon="139.099028"><ele>314</ele><time>2013-02-11T01:28:27Z</time></trkpt>
+<trkpt lat="36.107749" lon="139.098722"><ele>307</ele><time>2013-02-11T01:35:23Z</time></trkpt>
+<trkpt lat="36.107659" lon="139.095944"><ele>287</ele><time>2013-02-11T01:49:48Z</time></trkpt>
+<trkpt lat="36.106604" lon="139.094417"><ele>286</ele><time>2013-02-11T02:00:12Z</time></trkpt>
+<trkpt lat="36.105952" lon="139.093917"><ele>287</ele><time>2013-02-11T02:05:06Z</time></trkpt>
+<trkpt lat="36.104358" lon="139.094028"><ele>268</ele><time>2013-02-11T02:15:18Z</time></trkpt>
+<trkpt lat="36.102314" lon="139.093194"><ele>262</ele><time>2013-02-11T02:29:04Z</time></trkpt>
+<trkpt lat="36.100921" lon="139.094389"><ele>268</ele><time>2013-02-11T02:39:54Z</time></trkpt>
+<trkpt lat="36.098338" lon="139.094556"><ele>288</ele><time>2013-02-11T02:56:26Z</time></trkpt>
+<trkpt lat="36.097889" lon="139.094222"><ele>307</ele><time>2013-02-11T02:59:47Z</time></trkpt>
+<trkpt lat="36.097866" lon="139.093306"><ele>304</ele><time>2013-02-11T03:04:32Z</time></trkpt>
+<trkpt lat="36.097597" lon="139.09275"><ele>307</ele><time>2013-02-11T03:07:54Z</time></trkpt>
+<trkpt lat="36.098158" lon="139.0925"><ele>326</ele><time>2013-02-11T03:11:42Z</time></trkpt>
+<trkpt lat="36.098181" lon="139.091056"><ele>340</ele><time>2013-02-11T03:19:12Z</time></trkpt>
+<trkpt lat="36.097507" lon="139.090778"><ele>316</ele><time>2013-02-11T03:23:44Z</time></trkpt>
+<trkpt lat="36.097305" lon="139.09025"><ele>355</ele><time>2013-02-11T03:26:46Z</time></trkpt>
+<trkpt lat="36.096608" lon="139.089722"><ele>381</ele><time>2013-02-11T03:32:00Z</time></trkpt>
+<trkpt lat="36.096406" lon="139.088417"><ele>368</ele><time>2013-02-11T03:38:53Z</time></trkpt>
+<trkpt lat="36.0958" lon="139.087778"><ele>384</ele><time>2013-02-11T03:43:59Z</time></trkpt>
+<trkpt lat="36.09553" lon="139.087667"><ele>379</ele><time>2013-02-11T03:45:48Z</time></trkpt>
+<trkpt lat="36.093172" lon="139.090389"><ele>451</ele><time>2013-02-11T04:06:27Z</time></trkpt>
+<trkpt lat="36.093149" lon="139.091583"><ele>481</ele><time>2013-02-11T04:12:38Z</time></trkpt>
+<trkpt lat="36.092251" lon="139.092361"><ele>473</ele><time>2013-02-11T04:19:39Z</time></trkpt>
+<trkpt lat="36.091038" lon="139.093111"><ele>456</ele><time>2013-02-11T04:28:20Z</time></trkpt>
+<trkpt lat="36.091891" lon="139.093111"><ele>472</ele><time>2013-02-11T04:33:47Z</time></trkpt>
+<trkpt lat="36.092745" lon="139.092611"><ele>486</ele><time>2013-02-11T04:39:49Z</time></trkpt>
+<trkpt lat="36.092925" lon="139.0935"><ele>463</ele><time>2013-02-11T04:44:34Z</time></trkpt>
+<trkpt lat="36.093531" lon="139.093361"><ele>440</ele><time>2013-02-11T04:48:31Z</time></trkpt>
+<trkpt lat="36.093306" lon="139.094278"><ele>443</ele><time>2013-02-11T04:53:29Z</time></trkpt>
+<trkpt lat="36.093059" lon="139.09475"><ele>428</ele><time>2013-02-11T04:56:24Z</time></trkpt>
+<trkpt lat="36.093284" lon="139.095167"><ele>416</ele><time>2013-02-11T04:58:59Z</time></trkpt>
+<trkpt lat="36.092767" lon="139.095694"><ele>398</ele><time>2013-02-11T05:03:17Z</time></trkpt>
+<trkpt lat="36.092947" lon="139.096028"><ele>388</ele><time>2013-02-11T05:05:21Z</time></trkpt>
+<trkpt lat="36.093845" lon="139.096056"><ele>384</ele><time>2013-02-11T05:11:06Z</time></trkpt>
+<trkpt lat="36.093509" lon="139.097083"><ele>350</ele><time>2013-02-11T05:16:50Z</time></trkpt>
+<trkpt lat="36.094205" lon="139.097472"><ele>323</ele><time>2013-02-11T05:21:43Z</time></trkpt>
+<trkpt lat="36.093845" lon="139.098194"><ele>320</ele><time>2013-02-11T05:26:07Z</time></trkpt>
+<trkpt lat="36.094317" lon="139.100111"><ele>271</ele><time>2013-02-11T05:36:30Z</time></trkpt>
+<trkpt lat="36.092902" lon="139.100389"><ele>253</ele><time>2013-02-11T05:45:40Z</time></trkpt>
+<trkpt lat="36.093553" lon="139.102611"><ele>220</ele><time>2013-02-11T05:57:55Z</time></trkpt>
+<trkpt lat="36.094003" lon="139.103556"><ele>199</ele><time>2013-02-11T06:03:36Z</time></trkpt>
+<trkpt lat="36.093576" lon="139.104472"><ele>196</ele><time>2013-02-11T06:09:05Z</time></trkpt>
+<trkpt lat="36.092565" lon="139.104667"><ele>182</ele><time>2013-02-11T06:15:37Z</time></trkpt>
+<trkpt lat="36.093082" lon="139.107278"><ele>168</ele><time>2013-02-11T06:29:33Z</time></trkpt>
+<trkpt lat="36.095126" lon="139.112583"><ele>144</ele><time>2013-02-11T07:00:00Z</time></trkpt>
+</trkseg></trk>
+</gpx>
