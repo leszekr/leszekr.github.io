@@ -6,7 +6,6 @@ destination: ./_site
 
 future:      true
 lsi:         false
-markdown:    redcarpet
 permalink:   /:year-:month-:day/:title.html
 
 collections:
