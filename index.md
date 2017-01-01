@@ -3,24 +3,22 @@ layout: home
 title: Hello
 ---
 
-I'm a developer based in Tokyo, JAPAN, originally from Torun, POLAND.
+I'm a developer based in Tokyo, JAPAN, originally from [Torun, POLAND](http://www.torun.pl/en).
 
-I had some [publications related to neural networks](https://umk.academia.edu/LeszekRybicki) in the past and especially enjoyed data visualization.
+I had some [publications related to neural networks](https://umk.academia.edu/LeszekRybicki) in the past. I especially enjoyed reinforcement learning and data visualization.
 
-Due to circumstances, I turned into a full-stack web developer. As such, I have experience in:
+Currently, I'm working at [Cookpad](https://info.cookpad.com/en/), R&D department, working on image analysis using deep neural networks. My tools include:
+
+ - [Tensorflow](https://www.tensorflow.org)
+ - [Keras](https://keras.io)
+ - [Chainer](http://chainer.org)
+ - [Jupyter](http://jupyter.readthedocs.io)
+
+I have spent some time as a full-stack web developer. As such, I have experience in:
 
  - [Sails](http://sailsjs.org/) (javascript)
  - [Sinatra](http://www.sinatrarb.com/) (ruby)
  - [Flask](http://flask.pocoo.org/) (python)
-
-on the back-end and:
-
  - [Backbone](http://backbonejs.org/)
  - [D3](http://d3js.org/)
  - [Bootstrap](http://getbootstrap.com/)
-
-on the front-end side. I have occasionally worked on smartphone apps using [PhoneGap](http://phonegap.com/). I made the [Japan Today App](https://itunes.apple.com/us/app/japan-today/id681497824?mt=8) with some good people. Currently studying Android development.
-
-Currently, I'm enjoying work at [Abeja](http://abeja.asia) where a face-recognizing deep-learning neural network produces tons of data, which needs cool visualization. What more can you ask for?
-
-I enjoy outdoor activities like [hiking in the Japanese mountains](http://jambointernational.org).
