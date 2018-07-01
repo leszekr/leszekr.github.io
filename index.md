@@ -7,7 +7,7 @@ I'm a developer based in Tokyo, JAPAN, originally from [Torun, POLAND](http://ww
 
 I had some [publications related to neural networks](https://umk.academia.edu/LeszekRybicki) in the past. I especially enjoyed reinforcement learning and data visualization.
 
-Currently, I'm working at [Cookpad](https://info.cookpad.com/en/), R&D department, working on image analysis using deep neural networks. My tools include:
+Currently, I'm working at [Cookpad](https://info.cookpad.com/), R&D department, working on image analysis using deep neural networks. My tools include:
 
  - [Tensorflow](https://www.tensorflow.org)
  - [Keras](https://keras.io)
