@@ -11,8 +11,8 @@ Currently, I'm working at [Cookpad](https://info.cookpad.com/), R&D department, 
 
  - [Tensorflow](https://www.tensorflow.org)
  - [Keras](https://keras.io)
- - [Chainer](http://chainer.org)
  - [Jupyter](http://jupyter.readthedocs.io)
+ - [Chainer](http://chainer.org)
 
 I have spent some time as a full-stack web developer. As such, I have experience in:
 
