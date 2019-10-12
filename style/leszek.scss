@@ -18,6 +18,7 @@ body {
   img {
     width: 100%;
     height: auto;
+	border: 6px solid #ccc;
   }
 }
 
@@ -142,3 +143,30 @@ span.double {
     z-index: 1;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #eee;
+  }
+  a {
+	  color: #8AC;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+  h1, h2, h3, h4, h5, h6, .double {
+    color: #eee;
+  }
+  .home-photo {
+	  img {
+	    	border: 6px solid #666;	  	
+	  }
+  }
+  .my-name{
+    h1 {
+      color: #eee;
+    }
+  }
+}
+
