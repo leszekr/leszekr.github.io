@@ -14,14 +14,6 @@ body {
   font-size: 120%;
 }
 
-.home-photo {
-  img {
-    width: 100%;
-    height: auto;
-	border: 6px solid #ccc;
-  }
-}
-
 h1, h2, h3, h4, h5, h6, .double {
   font-family: "Titillium Web", "Hiragino Sans GB", "Hiragino Kaku Gothic", "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴ ProN", "helvetica", "Arial", sans;
   font-weight: 200;
@@ -145,23 +137,25 @@ span.double {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #444;
+  html, body {
+    background-color: #444!important;
     color: #eee;
   }
   a {
-	  color: #8AC;
+	  color: #CA6;
+  }
+  .box {
+	background: #222;
+  	border-color: #000;
+  }
+  hr {
+  	border-bottom: 2px solid #CA6;
   }
   img {
     filter: grayscale(30%);
   }
   h1, h2, h3, h4, h5, h6, .double {
     color: #eee;
-  }
-  .home-photo {
-	  img {
-	    	border: 6px solid #666;	  	
-	  }
   }
   .my-name{
     h1 {
