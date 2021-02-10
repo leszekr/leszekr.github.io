@@ -11,7 +11,7 @@ Sometimes I'm a matematician. I love the aspect of math where I get to solve a p
 
 I can be creative. I enjoy making data easy to see and pleasant for the eyes. I'm driven by making user-focused products. Nothing makes me more proud than the thought that something I created is useful to someone. 
 
-I believe that technology, be it hardawre, software or services should be designed in a way to improve, rather than replace, human beings. Enhance our senses, sharpen our memory and focus our thoughts. 
+I believe that technology, be it hardware, software or services should be designed in a way to improve, rather than replace, human beings. Enhance our senses, sharpen our memory and focus our thoughts. 
 
 > “When we invented the personal computer,<br>
 > we created a new kind of bicycle... <br>
