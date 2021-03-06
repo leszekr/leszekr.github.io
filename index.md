@@ -19,8 +19,4 @@ I believe that technology, be it hardware, software or services should be design
 > a new generation of entrepreneurs.” <br>
 > — Steve Jobs, c. 1980
 
-Currently, I'm working at [Cookpad](https://info.cookpad.com/)'s R&D department, on image-related tasks using deep neural networks. My tools include:
-
- - [Tensorflow](https://www.tensorflow.org)
- - [Keras](https://keras.io)
- - [Jupyter](http://jupyter.readthedocs.io)
+Currently, I'm working at [Cookpad](https://info.cookpad.com/)'s R&D department, on image-related tasks using deep neural networks.
