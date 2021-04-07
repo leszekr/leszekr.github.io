@@ -4,7 +4,7 @@ url:        http://localhost:4000
 
 destination: ./_site
 
-future:      true
+future:      false
 lsi:         false
 permalink:   /:year-:month-:day/:title.html
 
